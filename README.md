@@ -2,7 +2,7 @@
 
 Mini projeto de calculadora de somar desenvolvido com JavaScript puro (Vanilla JS), com foco em organização de código, modularização e separação de responsabilidades.
 
-Demo: 
+Demo: https://note-salaf.github.io/soma-app/
 
 ---
 
@@ -96,3 +96,4 @@ Este projeto marcou uma evolução na organização do código, saindo de script
 
 
 Projeto desenvolvido para fins de estudo.
+
