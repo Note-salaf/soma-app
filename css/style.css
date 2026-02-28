@@ -1,0 +1,84 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(238, 236, 236);
+    width: 300px;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 1px 2px 6px rgb(56, 56, 56);
+}
+
+.imgCalculadoraContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#imgCalculadora {
+    display: block;
+    width: 100px;
+    height: auto;
+    user-select: none;
+}
+
+input {
+    border: none;
+    height: 2rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(75, 74, 74);
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgb(68, 126, 233);
+}
+
+.imgSinalMaisContainer {
+    display: flex;
+   justify-content: center;
+}
+
+#imgSinalMais {
+    display: block;
+    width: 20px;
+    height: auto;
+    margin: 10px 0;
+    user-select: none;
+}
+
+#btnCalcular {
+    border: none;
+    background-color: rgb(68, 126, 233);
+    height: 2rem;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+}
+
+#btnCalcular:hover {
+    background-color: rgb(30, 102, 235);;
+}
+
+#btnCalcular:active {
+    transform: scale(.95);
+}
+
+.informaResposta {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.erro {
+    color: #c0392b;
+    font-size: 1rem;
+}
