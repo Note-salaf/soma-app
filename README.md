@@ -3,6 +3,7 @@
 Mini projeto de calculadora de somar desenvolvido com JavaScript puro (Vanilla JS), com foco em organização de código, modularização e separação de responsabilidades.
 
 Demo: 
+
 ---
 
 ## 📌 Objetivo do Projeto
@@ -19,6 +20,7 @@ Este projeto foi criado para praticar:
 ---
 
 ## 🗂 Estrutura do Projeto
+```
 soma-app/
 │
 ├── assets/
@@ -38,7 +40,7 @@ soma-app/
 │
 ├── index.html
 └── README.md
-
+```
 
 ### Responsabilidades:
 
@@ -91,5 +93,6 @@ Este projeto marcou uma evolução na organização do código, saindo de script
 ---
 
 ## 📄 Licença
+
 
 Projeto desenvolvido para fins de estudo.
